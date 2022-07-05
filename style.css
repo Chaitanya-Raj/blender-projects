@@ -70,3 +70,18 @@ video {
     padding: 16px 30px;
     cursor: pointer;
 }
+
+@media screen and (max-width:768px) {
+    .home-content {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+    }
+
+}
